@@ -1,0 +1,7 @@
+
+# We're going to try and source this from all reasonable shells (sh-derivative -- if you're using
+# csh, you have bigger problems).
+
+# This script only actually does anything on first login.
+#
+
