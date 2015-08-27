@@ -24,6 +24,7 @@ sudo apt-get install -y      \
     libc6-i386               \
     make
 
+
 # Interpreters and such.
 #
 sudo apt-get install -y      \
@@ -48,6 +49,7 @@ sudo apt-get install -y      \
     jq                       \
     libcppunit-dev           \
     lldb-3.4                 \
+    openjdk-7-jdk            \
     phantomjs                \
     software-properties-common \
     tmux                     \
