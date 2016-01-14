@@ -4,4 +4,5 @@
 
 # This script only actually does anything on first login.
 #
-
+/vagrant/bin/first-login.sh
+alias cd..='cd ..'

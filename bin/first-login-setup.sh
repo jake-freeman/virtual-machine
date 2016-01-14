@@ -26,5 +26,3 @@ then
     echo $lines >> ~vagrant/.bashrc 
     echo $lines >> ~vagrant/.zshrc
 fi
-
-

@@ -102,11 +102,6 @@ Vagrant.configure(2) do |config|
     # Base machine
     #
     config.vm.define :base, autostart: false do |base|
-        # If Chris, forward port 80 on the host into the VM.
-        if $user == "chris.koenig"
-            config.vm.network("forwarded_port", guest: 80, host: 80)
-        end
-
         set_dev_profile base, 'base'
         provision [ "base", "final" ], base
     end
