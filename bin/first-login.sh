@@ -35,6 +35,7 @@ if [[ -e $HOME/.first-login ]]; then
             echo "Oh My Zsh is now your default command shell."
         else
             echo "Making Oh My Zsh the default command shell."
+            # this line needs to be fixed
             sudo chsh -s $(which zsh)
         fi
 
